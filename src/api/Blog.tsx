@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: 'http://slovakstudy.loc/',
+  baseURL: process.env.REACT_APP_BASE_URI,
   timeout: 2000,
 });
