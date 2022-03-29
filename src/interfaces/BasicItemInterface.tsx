@@ -1,3 +1,8 @@
 export interface BasicItemInterface {
-  // some data
+  item: BasicItemDataInterface
+}
+
+export interface BasicItemDataInterface {
+  title: string,
+  description: string
 }
